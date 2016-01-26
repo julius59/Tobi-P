@@ -1,18 +1,20 @@
 #!/bin/bash
 
-echo ""
+echo.
 echo "*** Installing ROS on the Pi ***"
-echo ""
+echo.
 bash ./setup/ROS_install.sh
-echo ""
+
+echo.
 echo "*** Installing pi-blaster ***"
-echo ""
+echo.
 bash ./setup/pi-blaster_install.sh
-echo ""
+
+echo.
 echo "*** Installing the Tobi-P package ***"
-echo ""
+echo .
 bash ./setup/tobi_package_install.sh
 
-echo ""
-source ~/.bashrc
+
+echo.
 echo "*** Done ! ***"

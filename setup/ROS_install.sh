@@ -19,6 +19,6 @@ cd ~/ros_catkin_ws
 rosdep install --from-paths src --ignore-src --rosdistro indigo -y -r --os=debian:jessie
 sudo ./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release --install-space /opt/ros/indigo
 
-echo ""
+echo.
 echo "source /opt/ros/indigo/setup.bash" >> ~/.bashrc
-
+. ~/.bashrc
